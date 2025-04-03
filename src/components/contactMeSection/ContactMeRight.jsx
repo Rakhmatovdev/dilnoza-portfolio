@@ -1,12 +1,11 @@
 import ContactInfo from "./ContactInfo";
 import ContactSocial from "./ContactSocial";
-import email from "../../public/images/email.png";
 
 const ContactMeRight = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-12">
       <img
-        src={email}
+        src='/public/images/email.png'
         alt="email image"
         className="max-w-[300px]"
       />
