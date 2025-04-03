@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
-import dilnoz from "../../public/images/HexaPic.png";
 const HeroPic = () => {
   return (
     <motion.div
@@ -12,7 +11,7 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src={dilnoz}
+        src="/public/images/HexaPic.png"
         alt="Dilnoza Turkmenbayeva"
         className="max-h-[450px] w-auto"
       />
