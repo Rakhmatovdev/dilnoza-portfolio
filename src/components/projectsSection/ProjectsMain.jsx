@@ -2,34 +2,35 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { Images } from "../../../public";
 
 const projects = [
   {
     name: "Administrator",
     year: "Mar2022",
     align: "right",
-    image: "/public/images/website-img-1.jpg",
+    image: Images.website1,
     link: "#",
   },
   {
     name: "HR",
     year: "Sept2022",
     align: "left",
-    image: "/public/images/website-img-2.webp",
+    image: Images.website2,
     link: "#",
   },
   {
     name: "Call Center",
     year: "Jan2023",
     align: "right",
-    image: "/public/images/website-img-3.jpg",
+    image: Images.website3,
     link: "#",
   },
   {
     name: "Manager",
     year: "May2024",
     align: "left",
-    image: "/public/images/website-img-4.jpg",
+    image:Images.website4,
     link: "#",
   },
 ];
